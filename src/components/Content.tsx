@@ -1,5 +1,5 @@
 import {
-  Flex,
+  Box,
 } from '@chakra-ui/react';
 import { FC, ReactNode } from 'react';
 
@@ -8,9 +8,9 @@ export interface ContentProps {
 }
 
 const Content: FC<ContentProps> = ({ children }) => (
-  <Flex p={4}>
+  <Box p={4}>
     {children}
-  </Flex>
+  </Box>
 );
 
 export default Content;

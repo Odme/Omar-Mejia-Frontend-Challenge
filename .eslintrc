@@ -50,6 +50,7 @@
       {
         "namedComponents": ["arrow-function", "function-declaration"]
       }
-    ]
+    ],
+    "no-void": ["error", { "allowAsStatement": true }]
   }
 }
